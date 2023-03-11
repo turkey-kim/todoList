@@ -13,6 +13,7 @@ function App() {
     }
     let clone = JSON.parse(localStorage.getItem("todos"));
     setList(clone);
+    console.log("bbb");
   }, []);
 
   return (
